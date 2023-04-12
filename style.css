@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Inter, sans-serif;
+}
+
+.app-container {
+	width: 550px;
+	margin: auto;
+	text-align: center;
+}
+
+.input-wrapper {
+	background-color: #44d6cc;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 30px;
+	row-gap: 30px;
+}
+
+h1 {
+	font-size: 28px;
+}
+
+#input-value {
+	width: 117px;
+	border: 1px solid white;
+	align-self: center;
+	padding: 1rem;
+	border-radius: 5px;
+	font-size: 58px;
+	font-weight: 800;
+	color: white;
+	text-align: center;
+	background-color: #dda7a7;
+}
+
+button {
+	width: 117px;
+	align-self: center;
+	padding: 9px 14px;
+	font-family: inherit;
+	border-radius: 5px;
+	border: none;
+}
+
+.converted-units-wrapper {
+	padding: 36px 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	row-gap: 24px;
+	background-color: #f4f4f4;
+}
+
+.unit-card-wrapper {
+	background-color: white;
+	padding: 31px 77px 18.6px;
+	font-size: 14px;
+	width: 100%;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: 600;
+}
